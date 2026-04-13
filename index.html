@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revenge Me</title>
+    <link href="./images/icon.ico" rel="icon" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!--header+navigation-ba-->
+    <header>
+        
+        <input type="checkbox" id="toggler">
+        <label for="toggler" class="fa fa-bars"></label>
+
+        <a class="logo">Revenge<span>Me</span></a>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about me</a></li>
+                <li><a href="#services">pricing</a></li>
+                <li><a href="#works">portfolio</a></li>
+                <li><a href="#CV">CV</a></li>
+            </ul>
+        </nav>
+
+        <a class="fa fa-envelope" id="mail" onclick="OpenLog()"></a>
+    </header>
+    <!--header+navigation-bar-->
+
+    <main>
+        <!--home-->
+        <section id="home" class="home">
+            <div class="home-content">
+                <h4>Hello, my name is </h4>
+                <h1>John <span>Wick</span></h1>
+                <h3>and I'm a hitman</h3>
+              </div>
+        </section>
+        <!--home-->
+
+        <!--about-->
+        <section id="about" class="about">
+            <div class="main">
+                <div class="about-text">
+                  <h2>About me:</h2>
+                  <p>
+                    <img src="./images/about-photo.png" alt="john wick" class="Img">
+
+                    I am John Wick, a man of few words but endless action. I used to belong to the world of assassins, 
+                    where I had a reputation as the best in the business. But ever since I met my wife and left that 
+                    dangerous life behind, I have tried to live a peaceful existence. Unfortunately, fate had other 
+                    plans for me.
+                    <br>
+                    As I took on the High Table and its ruthless assassins, I have shown that I am not only skilled and determined, 
+                    but also loyal and honorable. I will do whatever it takes to protect the ones I care about and seek justice for 
+                    those who have been wronged.
+                    <br>
+                    Now, even though my mission is not over, I have come to realize that the price for revenge is high. I have lost 
+                    many friends and allies, and I may never fully recover from my wounds. But I will always stand tall and defiant, 
+                    ready to face whatever comes my way. This is why I want to help others revenge their friends and  family so that 
+                    they don't have to pay the same price I did
+                    <br>
+                    In the end, I am John Wick. A man who may have lost everything, but still has his skills, his dog, and his principles. 
+                    A man who will never back down from a fight, nor forget his purpose. A man who may live in the shadows, but shines with 
+                    a bright light of his own.
+                  </p>
+                  </div>
+            </div>
+                  
+        </section>
+        <!--about-->
+
+        <!--services-->
+        <section id="services">
+            <div class="services">
+                <div class="inner">
+                   <h2>Services:</h2> 
+                   <p>a.k.a. how do you want me to revenge your loved ones</p>
+                   
+                   <div class="border"></div>
+        
+                   
+                   <div class="row">
+        
+                    <div class="col">
+                        <div class="service">
+                            <div class="name">
+                                <p style="font-weight: bolder;">Just Perpetrator</p>
+                                <p><small><i>around $2000</i></small></p>
+                            </div>
+                            <div class="border"></div>
+                            <p>
+                                Point me to the perpetrator and I will revenge your pet by getting rid of scum that dared to 
+                                take them away from you in the most painfull way imaginable. 
+                                Make them regret what they did to your loved ones by picking "Just Perpetrator".
+                            </p>
+                            <div class="border"></div>
+                            <button type="button" class="btn" onclick="OpenLog()">Choose</button>
+                        </div>
+                    </div>
+        
+                    <div class="col">
+                        <div class="service">
+                            <div class="name">
+                                <p style="font-weight: bolder;">No soul left</p>
+                                <p><small><i>around $10000</i></small></p>
+                            </div>
+                             <div class="border"></div>
+                            <p>
+                                Was your loved one killed by a group of people? Pick "No soul left" to ensure everyone involved is 
+                                eliminated. Furthermore I will personally interrogate everyone involved before I dispose of them 
+                                so that there'll be no soul left responsible for this tragedy.
+                            </p>
+                            <div class="border"></div>
+                            <button type="button" class="btn" onclick="OpenLog()">Choose</button>
+                        </div>
+                    </div>
+        
+                    <div class="col">
+                        <div class="service">
+                            <div class="name">
+                                <p style="font-weight: bolder;">Eye for an Eye</p>
+                                <p><small><i>around $3000</i></small></p>
+                            </div>
+                           
+                            <div class="border"></div> 
+                           <p>Do you wish for them to suffer the same exact pain but want them to get the sweet relase of death?
+                            Then "Eye for an Eye" package is for you. I will make themsuffer just as much as 
+                            you did by killing someone as dear to them as your loved one was to you.
+                           <div class="border"></div>
+                           <button type="button" class="btn" onclick="OpenLog()">Choose</button>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+        <!--services-->
+
+        <!--portfolio-->
+        <section id="works" class="works">
+            <h2>Portfolio:</h2> 
+            <p>a.k.a the people i have killed to revenge my own loved ones</p>
+            <div class="border"></div>
+            <div class="row"> 
+                <div class="column">
+                  <img onclick="Show(this)" class="Img" src="./images/1.png" alt="Nikolai">
+                  <img onclick="Show(this)" class="Img" src="./images/2.png" alt="Victor">
+                  
+                </div>
+                <div class="column">
+                    <img onclick="Show(this)" class="Img" src="./images/3.png" alt="Kuzuma">
+                    <img onclick="Show(this)" class="Img" src="./images/4.png" alt="Pavel">
+                </div>  
+                <div class="column">
+                    <img onclick="Show(this)" class="Img" src="./images/5.png" alt="Kirill">
+                    <img onclick="Show(this)" class="Img" src="./images/6.png" alt="Georgi">
+                    
+                </div>
+                <div class="column">
+                    <img onclick="Show(this)" class="Img" src="./images/7.png" alt="Ivan">
+                    <img onclick="Show(this)" class="Img" src="./images/8.png" alt="Iosef Tarasov">
+                </div>
+              </div>
+              
+              <div class="clearfix"></div>
+              <div class="border"></div>
+        </section>
+        <!--portfolio-->
+
+        <!--CV-->
+        <section id="CV" class="CV">
+            <h2>Download CV</h2>
+            <div class="border"></div>
+            <p>Learn the full extent of my qualifications my downloading my CV.</p>
+            <button type="button" class="btn" style="width:75%">Download CV</button>
+            <div class="border"></div>
+        </section>
+        <!--CV-->
+    </main>
+
+
+    <!--footer-->
+    <footer>
+        <div>
+            <p>Obviously its a fan-project & none of these photos are mine. Miraim.</p>
+        </div>
+    </footer>
+    <!--footer-->
+
+
+
+
+        <!--contact-me-section-->
+
+        <section id="mySidenav" class="sidenav">
+
+            <a href="javascript:void(0)" class="closebtn" onclick="CloseLog()">&times;</a>
+            
+            <div class="container">
+                <div class="contact-box">
+                    <div class="left">
+        
+                    </div>
+                    <div class="right">
+                        <h2>Contact me</h2>
+                        <input type="text" class="field" placeholder="your name">
+                        <input type="email" class="field" placeholder="your emali">
+                        <input type="text" class="field" placeholder="email topic">
+                        <textarea class="field area" placeholder="message"></textarea>
+                        <button class="btn">Send</button>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+        <!--contact-me-section-->
+
+        <!--pop-up-photo-section-->
+    
+            <div id="Modal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="photo" alt="modal photo" src="./images/1.png">
+                <div id="caption"></div>
+              </div>
+        <!--pop-up-photo-sectio-->
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
